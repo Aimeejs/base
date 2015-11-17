@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "aimee": "app",
   "description": "公共less库",
   "main": "base.less",

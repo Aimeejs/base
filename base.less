@@ -117,15 +117,19 @@
     background-repeat: @repeat;
 }
 
-// 适配
+// 6 > & >= 5
 .iPhone5(@css){
-    @media screen and (min-width: 320px) and (max-width: 320px) { @css(); }
+    @media screen and (min-width: 320px) and (max-width: 359px) { @css(); }
 }
+
+// 6plus > & > 5
 .iPhone6(@css){
-    @media screen and (min-width: 375px) and (max-width: 375px) { @css(); }
+    @media screen and (min-width: 360px) and (max-width: 410px) { @css(); }
 }
+
+// & > 6plus
 .iPhone6p(@css){
-    @media screen and (min-width: 414px) and (max-width: 414px) { @css(); }
+    @media screen and (min-width: 411px) { @css(); }
 }
 // 适配
 .autoscreen(@css6, @css6p){
