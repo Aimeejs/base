@@ -34,6 +34,12 @@
             box-orient: @args;
 }
 
+// Update 2016-05-05
+.box-order( @args: 1 ){
+    -webkit-box-ordinal-group: @args;
+            box-ordinal-group: @args;
+}
+
 .box-center(...) {
     .box-pack();
     .box-align();
